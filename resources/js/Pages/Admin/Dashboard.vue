@@ -33,28 +33,28 @@ defineProps({
                 <div class="rounded-2xl bg-white p-5 shadow-sm border border-slate-200">
                     <p class="text-sm text-slate-500">{{ $t('users') }}</p>
                     <p class="mt-3 text-3xl font-bold text-slate-900">
-                        {{ stats.users }}
+                        {{ $n(stats.users) }}
                     </p>
                 </div>
 
                 <div class="rounded-2xl bg-white p-5 shadow-sm border border-slate-200">
                     <p class="text-sm text-slate-500">{{ $t('orders') }}</p>
                     <p class="mt-3 text-3xl font-bold text-slate-900">
-                        {{ stats.orders }}
+                        {{ $n(stats.orders) }}
                     </p>
                 </div>
 
                 <div class="rounded-2xl bg-white p-5 shadow-sm border border-slate-200">
                     <p class="text-sm text-slate-500">{{ $t('blogs') }}</p>
                     <p class="mt-3 text-3xl font-bold text-slate-900">
-                        {{ stats.blogs }}
+                        {{ $n(stats.blogs) }}
                     </p>
                 </div>
 
                 <div class="rounded-2xl bg-white p-5 shadow-sm border border-slate-200">
                     <p class="text-sm text-slate-500">{{ $t('income') }}</p>
                     <p class="mt-3 text-3xl font-bold text-emerald-600">
-                        {{ stats.income }} {{ $t('currency') }}
+                        {{ $n(stats.income) }} {{ $t('currency') }}
                     </p>
                 </div>
             </div>
