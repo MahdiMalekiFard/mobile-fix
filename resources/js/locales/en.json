@@ -1,0 +1,16 @@
+{
+    "sidebar_title": "Admin Panel",
+    "dashboard": "Dashboard",
+    "users": "Users",
+    "orders": "Orders",
+    "blogs": "Blogs",
+    "settings": "Settings",
+    "income": "Income",
+    "welcome": "Welcome",
+    "currency": "Dollars",
+    "lang_name": "English",
+    "situation": "General situation",
+    "manager": "Site manager",
+    "message": "This is where charts or reports will be placed later.",
+    "welcome_message": "This is your site's admin panel. From here you can manage users, orders, products, and settings."
+}

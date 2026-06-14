@@ -21,12 +21,10 @@ return new class extends Migration
 
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
             $table->foreign('assigned_admin_id')->references('id')->on('users')->nullOnDelete();
-            $table->foreign('last_message_id')->references('id')->on('messages')->nullOnDelete();
 
             $table->index(['user_id']);
             $table->index(['assigned_admin_id']);
             $table->index(['last_message_at']);
-            $table->index(['last_message_id']);
         });
     }
 
